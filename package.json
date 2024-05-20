@@ -1,0 +1,18 @@
+{
+  "name": "iodineJobApplyAssignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:headless": "npx cypress run",
+    "test:headed": "npx cypress open"
+  },
+  "author": "Fazal Rehman",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1",
+    "dayjs": "^1.11.3",
+    "cypress": "^9.7.0",
+    "cypress-real-events": "^1.7.0"
+  }
+}
